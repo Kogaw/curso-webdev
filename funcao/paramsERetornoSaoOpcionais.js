@@ -12,3 +12,5 @@ console.log(area(2))
 console.log(area())
 console.log(area(2, 2, 2))
 console.log(area(5, 5))
+
+console.log(typeof arguments)
