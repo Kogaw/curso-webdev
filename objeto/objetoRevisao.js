@@ -16,11 +16,24 @@ const carro ={
         nome:'Raul',
         idade:56,
         endereco:{
-            logradouro:'Rua ABC'
+            logradouro:'Rua ABC',
             numero: 123
         }
-    }
+    },
     condutores: [{
-        
-    }]
+        nome:'Junior',
+        idade: 19
+    }, {
+        nome:'Ana',
+        idade: 42
+    }
+    ],
+    calcularValorSeguro: function(){
+        //..
+    }
 }
+
+carro.proprietario.endereco.numero = 1000
+carro['proprietario']['endereco']['logradouro'] = 'Av Gigante'
+
+console.log(carro)
